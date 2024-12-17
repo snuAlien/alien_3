@@ -112,15 +112,15 @@ function preload() {
     toons[i] = loadImage('assets/toon'+(i+1)+'.png')
   }
   for (let i=0; i<12; i++) {
-    backgroundImgs[i] = loadImage('assets/bg'+i+'.png');
+    backgroundImgs[i] = loadImage('background/bg'+i+'.png');
   }
   
   for (let i=0; i<21; i++) {
-    AlienImgs[i] = loadImage('assets/alien'+i+'.png');
+    AlienImgs[i] = loadImage('alien/alien'+i+'.png');
   }
 
   for (let i=0; i<15; i++) {
-    planetImgs[i] = loadImage('assets/p'+i+'.png');
+    planetImgs[i] = loadImage('planet/p'+i+'.png');
   }
 
   for (let letter of alphabet) {
